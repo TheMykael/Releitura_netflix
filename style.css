@@ -1,0 +1,44 @@
+/* Variáveis do CSS. Serve como boa prática para poder organizar por exemplo as cores mais usadas no estilo*/
+:root{
+	--azul: #0a0bc7;
+	--preto: #141414;
+	--azul_claro: #2062a7;
+}
+
+/* Reset do CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	/* Colocando o "var", automaticamente chamamos a variável declarada no início */
+	background: var(--preto);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo{
+	margin-left: 10px;
+	color: var(--azul);
+	font-family: 'Arial Black', Times;
+	font-size: 40px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #aaa;
+	margin-right: 10px;
+}
+
+header nav a:hover{
+	color: #fff;
+}
