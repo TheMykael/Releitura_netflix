@@ -100,3 +100,10 @@ header nav a:hover{
 .filme_principal .container{
 	width: 70%;
 }
+
+.box_filme{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	display: block;
+}
